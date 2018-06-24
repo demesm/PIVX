@@ -43,7 +43,7 @@ More information at [skucoin.org](http://www.skucoin.org) Visit our ANN thread a
 
 <table>
 <th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes & Stakers</th><th>Budget</th>
-<tr><td>Phase 1</td><td>259201-302399</td><td>50 SKU</td><td>90% (45 SKU)</td><td>10% (5 SKU)</td></tr>
+<tr><td>Phase 1</td><td>0-302399</td><td>50 SKU</td><td>90% (45 SKU)</td><td>10% (5 SKU)</td></tr>
 <tr><td>Phase 2</td><td>302400-345599</td><td>45 SKU</td><td>90% (40.5 SKU)</td><td>10% (4.5 SKU)</td></tr>
 <tr><td>Phase 3</td><td>345600-388799</td><td>40 SKU</td><td>90% (36 SKU)</td><td>10% (4 SKU)</td></tr>
 <tr><td>Phase 4</td><td>388800-431999</td><td>35 SKU</td><td>90% (31.5 SKU)</td><td>10% (3.5 SKU)</td></tr>
