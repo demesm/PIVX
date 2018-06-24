@@ -1,19 +1,19 @@
 [Unit]
-Description=PIVX's distributed currency daemon
+Description=SKUCOIN's distributed currency daemon
 After=network.target
 
 [Service]
-User=pivx
-Group=pivx
+User=skucoin
+Group=skucoin
 
 Type=forking
-PIDFile=/var/lib/pivxd/pivxd.pid
+PIDFile=/var/lib/skucoind/skucoind.pid
 
-ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
+ExecStart=/usr/bin/skucoind -daemon -pid=/var/lib/skucoind/skucoind.pid \
+          -conf=/etc/skucoin/skucoin.conf -datadir=/var/lib/skucoind
 
-ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
-         -datadir=/var/lib/pivxd stop
+ExecStop=-/usr/bin/skucoin-cli -conf=/etc/skucoin/skucoin.conf \
+         -datadir=/var/lib/skucoind stop
 
 Restart=always
 PrivateTmp=true

@@ -1,9 +1,9 @@
-// Copyright (c) 2017-2018 The PIVX developers
+// Copyright (c) 2017-2018 The SKUCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zpivcontroldialog.h"
-#include "ui_zpivcontroldialog.h"
+#include "zskucontroldialog.h"
+#include "ui_zskucontroldialog.h"
 
 #include "accumulators.h"
 #include "main.h"
@@ -12,12 +12,12 @@
 using namespace std;
 using namespace libzerocoin;
 
-std::set<std::string> ZPivControlDialog::setSelectedMints;
-std::set<CMintMeta> ZPivControlDialog::setMints;
+std::set<std::string> ZSkuControlDialog::setSelectedMints;
+std::set<CMintMeta> ZSkuControlDialog::setMints;
 
-ZPivControlDialog::ZPivControlDialog(QWidget *parent) :
+ZSkuControlDialog::ZSkuControlDialog(QWidget *parent) :
     QDialog(parent, Qt::WindowSystemMenuHint | Qt::WindowTitleHint | Qt::WindowCloseButtonHint),
-    ui(new Ui::ZPivControlDialog),
+    ui(new Ui::ZSkuControlDialog),
     model(0)
 {
     ui->setupUi(this);
@@ -31,19 +31,19 @@ ZPivControlDialog::ZPivControlDialog(QWidget *parent) :
     connect(ui->pushButtonAll, SIGNAL(clicked()), this, SLOT(ButtonAllClicked()));
 }
 
-ZPivControlDialog::~ZPivControlDialog()
+ZSkuControlDialog::~ZSkuControlDialog()
 {
     delete ui;
 }
 
-void ZPivControlDialog::setModel(WalletModel *model)
+void ZSkuControlDialog::setModel(WalletModel *model)
 {
     this->model = model;
     updateList();
 }
 
 //Update the tree widget
-void ZPivControlDialog::updateList()
+void ZSkuControlDialog::updateList()
 {
     // need to prevent the slot from being called each time something is changed
     ui->treeWidget->blockSignals(true);
@@ -128,7 +128,7 @@ void ZPivControlDialog::updateList()
 }
 
 // Update the list when a checkbox is clicked
-void ZPivControlDialog::updateSelection(QTreeWidgetItem* item, int column)
+void ZSkuControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 {
     // only want updates from non top level items that are available to spend
     if (item->parent() && column == COLUMN_CHECKBOX && !item->isDisabled()){
@@ -150,7 +150,7 @@ void ZPivControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 }
 
 // Update the Quantity and Amount display
-void ZPivControlDialog::updateLabels()
+void ZSkuControlDialog::updateLabels()
 {
     int64_t nAmount = 0;
     for (const CMintMeta& mint : setMints) {
@@ -159,14 +159,14 @@ void ZPivControlDialog::updateLabels()
     }
 
     //update this dialog's labels
-    ui->labelZPiv_int->setText(QString::number(nAmount));
+    ui->labelZSku_int->setText(QString::number(nAmount));
     ui->labelQuantity_int->setText(QString::number(setSelectedMints.size()));
 
     //update PrivacyDialog labels
-    privacyDialog->setZPivControlLabels(nAmount, setSelectedMints.size());
+    privacyDialog->setZSkuControlLabels(nAmount, setSelectedMints.size());
 }
 
-std::vector<CMintMeta> ZPivControlDialog::GetSelectedMints()
+std::vector<CMintMeta> ZSkuControlDialog::GetSelectedMints()
 {
     std::vector<CMintMeta> listReturn;
     for (const CMintMeta& mint : setMints) {
@@ -178,7 +178,7 @@ std::vector<CMintMeta> ZPivControlDialog::GetSelectedMints()
 }
 
 // select or deselect all of the mints
-void ZPivControlDialog::ButtonAllClicked()
+void ZSkuControlDialog::ButtonAllClicked()
 {
     ui->treeWidget->blockSignals(true);
     Qt::CheckState state = Qt::Checked;

@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi PIVX per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your SKUCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi SKUCOIN per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi PIVX per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your SKUCOIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi SKUCOIN per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PIV dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>SKUCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKUs from being stolen by malware infecting your computer.</source>
+        <translation>SKUCOIN verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi SKU dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI PIV&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKU&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI SKU&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserire un indirizzo PIVX da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
+        <source>Enter a SKUCOIN Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserire un indirizzo SKUCOIN da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
     </message>
     <message>
-        <source>The PIVX address to encrypt</source>
-        <translation>Indirizzo PIVX da crittografare</translation>
+        <source>The SKUCOIN address to encrypt</source>
+        <translation>Indirizzo SKUCOIN da crittografare</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this PIVX address</source>
-        <translation>Crittografa la chiave privata per questo indirizzo PIVX</translation>
+        <source>Encrypt the private key for this SKUCOIN address</source>
+        <translation>Crittografa la chiave privata per questo indirizzo SKUCOIN</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Espora la cronologia delle transazioni</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Operazioni di privacy per zPIV</translation>
+        <source>Privacy Actions for zSKU</source>
+        <translation>Operazioni di privacy per zSKU</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>SKUCOIN Core</source>
+        <translation>SKUCOIN Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Invia monete all' indirizzo PIVX</translation>
+        <source>Send coins to a SKUCOIN address</source>
+        <translation>Invia monete all' indirizzo SKUCOIN</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e pivx: URIs)</translation>
+        <source>Request payments (generates QR codes and skucoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e skucoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Informazioni PIVX Core</translation>
+        <source>&amp;About SKUCOIN Core</source>
+        <translation>&amp;Informazioni SKUCOIN Core</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Visualizza informazioni su PIVX Core</translation>
+        <source>Show information about SKUCOIN Core</source>
+        <translation>Visualizza informazioni su SKUCOIN Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Modifica le opzioni di configurazione per PIVX</translation>
+        <source>Modify configuration options for SKUCOIN</source>
+        <translation>Modifica le opzioni di configurazione per SKUCOIN</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi PIVX per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your SKUCOIN addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi SKUCOIN per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi PIVX specifici</translation>
+        <source>Verify messages to ensure they were signed with specified SKUCOIN addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi SKUCOIN specifici</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Apri file di configurazione del Masternodo</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Apri un PIVX: URI o richiesta di pagamento</translation>
+        <source>Open a SKUCOIN: URI or payment request</source>
+        <translation>Apri un SKUCOIN: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Mostra il messaggio di aiuto PIVX Core per ottenere un elenco con le possibili opzioni di riga di comando PIVX</translation>
+        <source>Show the SKUCOIN Core help message to get a list with possible SKUCOIN command-line options</source>
+        <translation>Mostra il messaggio di aiuto SKUCOIN Core per ottenere un elenco con le possibili opzioni di riga di comando SKUCOIN</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core</translation>
+        <source>SKUCOIN Core client</source>
+        <translation>SKUCOIN Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to PIVX network</source>
-        <translation><numerusform>%n connessione attiva alla rete PIVIX</numerusform><numerusform>%n connessioni attive alla rete PIVIX</numerusform></translation>
+        <source>%n active connection(s) to SKUCOIN network</source>
+        <translation><numerusform>%n connessione attiva alla rete SKUIX</numerusform><numerusform>%n connessioni attive alla rete SKUIX</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>Etichetta</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (pivx.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skucoin.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (skucoin.conf)</translation>
     </message>
 </context>
 <context>
@@ -1118,8 +1118,8 @@ MultiSend: %1</translation>
         <translation>Questa etichetta diventa rossa se uno dei destinatari riceve un importo inferiore a %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Può variare di +/- %1 uPIV per input.</translation>
+        <source>Can vary +/- %1 usku per input.</source>
+        <translation>Può variare di +/- %1 uSKU per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1165,8 +1165,8 @@ MultiSend: %1</translation>
         <translation>Modifica indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo PIVX valido.</translation>
+        <source>The entered address "%1" is not a valid SKUCOIN address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo SKUCOIN valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1211,16 +1211,16 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>SKUCOIN Core</source>
+        <translation>SKUCOIN Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Informazioni su PIVX Core</translation>
+        <source>About SKUCOIN Core</source>
+        <translation>Informazioni su SKUCOIN Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1266,16 +1266,16 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Benvenuto in PIVIX Core.</translation>
+        <source>Welcome to SKUCOIN Core.</source>
+        <translation>Benvenuto in SKUIX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove PIVX Core salverà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where SKUCOIN Core will store its data.</source>
+        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove SKUCOIN Core salverà i propri dati.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core scaricherà e salverà una copia della blockchain PIVX. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
+        <source>SKUCOIN Core will download and store a copy of the SKUCOIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SKUCOIN Core scaricherà e salverà una copia della blockchain SKUCOIN. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1286,8 +1286,8 @@ MultiSend: %1</translation>
         <translation>Utilizza una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>SKUCOIN Core</source>
+        <translation>SKUCOIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1570,12 +1570,12 @@ MultiSend: %1</translation>
         <translation>Configura Offuscamento</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SKU</source>
+        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 SKU</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Usa 8 masternodi diversi per mixare fino a 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SKU</source>
+        <translation>Usa 8 masternodi diversi per mixare fino a 10000 SKU</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1612,8 +1612,8 @@ MultiSend: %1</translation>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Attiva Autoconio zPIV</translation>
+        <source>Enable zSKU Automint</source>
+        <translation>Attiva Autoconio zSKU</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1667,16 +1667,16 @@ MultiSend: %1</translation>
         <translation>Disponibile:</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>Bilancio PIV</translation>
+        <source>SKU Balance</source>
+        <translation>Bilancio SKU</translation>
     </message>
     <message>
         <source>Immature:</source>
         <translation>Non maturi:</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>Bilancio zPIV</translation>
+        <source>zSKU Balance</source>
+        <translation>Bilancio zSKU</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1752,12 +1752,12 @@ MultiSend: %1</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zSKU</source>
+        <translation>zSKU</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 SKU</source>
+        <translation>0.000 000 00 SKU</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1780,8 +1780,8 @@ MultiSend: %1</translation>
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>Controllo zPIV</translation>
+        <source>zSKU Control</source>
+        <translation>Controllo zSKU</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1796,8 +1796,8 @@ MultiSend: %1</translation>
         <translation>Bilancio Disponibile:</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zSKU</source>
+        <translation>0 zSKU</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -1976,8 +1976,8 @@ MultiSend: %1</translation>
         <translation>Copia ammontare</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>Conio zPIV</translation>
+        <source>zSKU Mint</source>
+        <translation>Conio zSKU</translation>
     </message>
     <message>
         <source>Confirm additional Fees</source>
@@ -2186,8 +2186,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>L'indirizzo PIVX per firmare il messaggio con</translation>
+        <source>The SKUCOIN address to sign the message with</source>
+        <translation>L'indirizzo SKUCOIN per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2210,16 +2210,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo PIVX</translation>
+        <source>Sign the message to prove you own this SKUCOIN address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo SKUCOIN</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>L'indirizzo PIVX con cui è stato firmato il messaggio</translation>
+        <source>The SKUCOIN address the message was signed with</source>
+        <translation>L'indirizzo SKUCOIN con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PIVX specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified SKUCOIN address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo SKUCOIN specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2257,8 +2257,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>SKUCOIN Core</source>
+        <translation>SKUCOIN Core</translation>
     </message>
     </context>
 <context>
@@ -2365,18 +2365,18 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZSkuControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zSKU</source>
+        <translation>zSKU</translation>
     </message>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>skucoin-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

@@ -321,10 +321,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZSkuControlDialog</name>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>skucoin-core</name>
     <message>
         <source>Information</source>
         <translation>जानकारी</translation>

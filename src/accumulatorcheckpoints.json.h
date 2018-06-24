@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The PIVX developers
+// Copyright (c) 2018 The SKUCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_ACCUMULATORCHECKPOINTS_JSON_H
-#define PIVX_ACCUMULATORCHECKPOINTS_JSON_H
+#ifndef SKUCOIN_ACCUMULATORCHECKPOINTS_JSON_H
+#define SKUCOIN_ACCUMULATORCHECKPOINTS_JSON_H
 
 #include <string>
 std::string GetMainCheckpoints() {
@@ -475,4 +475,4 @@ std::string GetRegTestCheckpoints() {
     return strRegTestCheckpoints;
 }
 
-#endif //PIVX_ACCUMULATORCHECKPOINTS_JSON_H
+#endif //SKUCOIN_ACCUMULATORCHECKPOINTS_JSON_H

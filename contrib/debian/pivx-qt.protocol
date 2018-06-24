@@ -1,6 +1,6 @@
 [Protocol]
-exec=pivx-qt '%u'
-protocol=pivx
+exec=skucoin-qt '%u'
+protocol=skucoin
 input=none
 output=none
 helper=true

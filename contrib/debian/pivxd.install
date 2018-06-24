@@ -1,2 +1,2 @@
-usr/local/bin/pivxd usr/bin
-usr/local/bin/pivx-cli usr/bin
+usr/local/bin/skucoind usr/bin
+usr/local/bin/skucoin-cli usr/bin
