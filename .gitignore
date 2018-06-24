@@ -129,3 +129,4 @@ qa/pull-tester/test.*/*
 CMakeLists.txt
 cmake-build-debug
 gitrename.sh
+gitrename.sh
